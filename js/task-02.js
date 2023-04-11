@@ -16,17 +16,3 @@ for (let i = 0; i < ingredients.length; i += 1) {
   arr.push(listIngr);
 }
 ul.append(...arr);
-
-// var2
-
-// const listIngr = ingredients
-//   .map((ingredient) => {
-//     const li = document.createElement("li");
-//     li.textContent = ingredient;
-//     li.classList.add("item");
-//   })
-//   .join("");
-// console.dir(listIngr);
-// ul.insertAdjacentHTML("afterbegin", listIngr);
-
-// console.dir(listIngr);
