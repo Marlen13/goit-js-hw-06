@@ -4,6 +4,4 @@ input.addEventListener("input", setFontSize);
 
 function setFontSize(event) {
   span.style.fontSize = event.currentTarget.value + "px";
-  //   console.dir(input.value);
-  //   console.dir(span.style.fontSize);
 }
